@@ -14,10 +14,7 @@ stages:
   inputs:
   - type: job
     stage: BUILD
-    job: Build
-  triggers:
-  - type: stage
-  properties:
+    job: B
   - name: CF_APP_NAME
     value: undefined
     type: text
